@@ -14,6 +14,7 @@
 		4496107B1F2A4D6500F000EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449610791F2A4D6500F000EE /* LaunchScreen.storyboard */; };
 		449610861F2A4D6500F000EE /* TravisTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449610851F2A4D6500F000EE /* TravisTestTests.swift */; };
 		449610911F2A4D6500F000EE /* TravisTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449610901F2A4D6500F000EE /* TravisTestUITests.swift */; };
+		4496109F1F2A77FF00F000EE /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4496109E1F2A77FF00F000EE /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4496108C1F2A4D6500F000EE /* TravisTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449610901F2A4D6500F000EE /* TravisTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisTestUITests.swift; sourceTree = "<group>"; };
 		449610921F2A4D6500F000EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4496109E1F2A77FF00F000EE /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		449610641F2A4D6500F000EE = {
 			isa = PBXGroup;
 			children = (
+				4496109E1F2A77FF00F000EE /* .travis.yml */,
 				4496106F1F2A4D6500F000EE /* TravisTest */,
 				449610841F2A4D6500F000EE /* TravisTestTests */,
 				4496108F1F2A4D6500F000EE /* TravisTestUITests */,
@@ -237,6 +240,7 @@
 			files = (
 				4496107B1F2A4D6500F000EE /* LaunchScreen.storyboard in Resources */,
 				449610781F2A4D6500F000EE /* Assets.xcassets in Resources */,
+				4496109F1F2A77FF00F000EE /* .travis.yml in Resources */,
 				449610761F2A4D6500F000EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
