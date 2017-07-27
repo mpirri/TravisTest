@@ -15,6 +15,7 @@
 		449610861F2A4D6500F000EE /* TravisTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449610851F2A4D6500F000EE /* TravisTestTests.swift */; };
 		449610911F2A4D6500F000EE /* TravisTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449610901F2A4D6500F000EE /* TravisTestUITests.swift */; };
 		4496109F1F2A77FF00F000EE /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4496109E1F2A77FF00F000EE /* .travis.yml */; };
+		449610A11F2A7A1B00F000EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 449610A01F2A7A1B00F000EE /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		449610901F2A4D6500F000EE /* TravisTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisTestUITests.swift; sourceTree = "<group>"; };
 		449610921F2A4D6500F000EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4496109E1F2A77FF00F000EE /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		449610A01F2A7A1B00F000EE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		449610641F2A4D6500F000EE = {
 			isa = PBXGroup;
 			children = (
+				449610A01F2A7A1B00F000EE /* .gitignore */,
 				4496109E1F2A77FF00F000EE /* .travis.yml */,
 				4496106F1F2A4D6500F000EE /* TravisTest */,
 				449610841F2A4D6500F000EE /* TravisTestTests */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449610A11F2A7A1B00F000EE /* .gitignore in Resources */,
 				4496107B1F2A4D6500F000EE /* LaunchScreen.storyboard in Resources */,
 				449610781F2A4D6500F000EE /* Assets.xcassets in Resources */,
 				4496109F1F2A77FF00F000EE /* .travis.yml in Resources */,
